@@ -1,0 +1,144 @@
+body {
+    background-color: #FFFFFF;
+    font-family: fantasy, Verdana, sans-serif; 
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    height: 76px;
+    width: 1024px;
+    font-weight: bold;
+    padding-top: 152px;
+    padding-left: 158px;
+    letter-spacing: 0.1em;
+}
+nav ul {
+    list-style-type: none;
+    text-align: left;
+    margin: auto;
+    width: 1000px;
+}
+
+nav li {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    background-color: #ecba63;
+    border-bottom: 2px solid #000000;
+}
+
+nav a:link {
+    color: #000000;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.floatcenter {
+    float: right;
+    margin: 10px;
+    display: block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+nav a:visited {
+    color: #FFFFFF;
+}
+
+nav a:hover {
+    color: #12c816;
+    background-color: #ecba53;
+}
+#header {
+    float: left;
+    padding-top: 15px;
+    padding-left: 160px;
+}
+
+aside {
+    float: right;
+    width: 200px;
+}
+footer {
+    font-size: .70em;
+    text-align: center;
+    padding-top: 10px;
+    clear: both;
+}
+label {
+      float: left;
+      display: block;
+      width: 10em;
+      clear: left;
+      text-align: right;
+      padding-right: 20px;
+}
+input {
+      display: block;
+      margin-bottom: 1em;
+}
+textarea {
+      display: block;
+      margin-bottom: 2em;
+      padding-right: 20px;
+      float: left;
+}
+fieldset {
+      width: 600px;
+      border: 2px ridge #FFFFFF;
+      padding: 20px;
+      margin-bottom: 10px;
+      margin: left;
+}
+input[type="radio"] {
+      float: left;
+}
+#mySubmit {
+      float: right;
+}
+#myReset {
+      float: right;
+}
+table {
+      position: relative;
+      margin: auto;
+      border: 5px solid #FF0000;
+      width: 900px;
+}
+td, th {
+      border: 1px solid #FF0000;
+      padding: 1em;
+}
+caption {
+      font-weight: bold;
+      font-size: 1.5em;
+      padding-bottom: 1em;
+      padding-top: 1em;
+}
+#gallery {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      white-space: nowrap;}
+#gallery ul {
+      width: 250px;
+      list-style-type: none; }
+#gallery li {
+      display: inline;
+}
+#gallery span {
+      display: none; }
+#gallery a:hover span {
+      display: block;
+      top: 10px;
+      left: 300px;
+      text-align: center; }

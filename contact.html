@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" /> <!-- Project One -->
+    <meta name="author" content="" /> <!-- cwise3@bulldogs.mgccc.edu -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>Pesto's Italian Restuarunt</title>
+  </head>
+  <body background="Background.jpg">
+  <div id="header">
+    <a href="index.html"><img src="logo.png"></a>
+  </div>
+  </div>
+  <div id="wrapper">
+    <nav>
+      <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="info.html">More Info</a></li>
+      </ul>
+    </nav>
+  </div>
+<form method="post" action="thanks.html">
+    <fieldset>
+    <legend>Contact Information</legend>
+    <p>Required information is marked with an asterisk (*).</p>
+    <label for="myFName">*First Name: </label>
+    <input type="text" name="myFName" id="myFName"
+           required="required" placeholder="First Name">
+    <label for="myLName">*Last Name:</label>
+    <input type="text" name="myLName" id="myLName"
+           required="required" placeholder="Last Name">
+    <label for="myemail">Email</label>
+    <input type="email" name="myemail" id="myemail" placeholder="you@yourdomain.com">
+    <label for="myPhone">*Phone Number:</label>
+    <input type="tel" name="myPhone" id="myPhone" required="required">
+    <label for="myMessage">*Message:</label>
+    <textarea name="myMessage" id="myMessage" rows="4" cols="20"
+            required="required" placeholder="Message"></textarea>
+    <label for="myContact">*Reason for Contacting: </label>
+    <label><input type="radio" name="myContact" id="job" value="job" required="required">Job Inquiry</label>
+    <label><input type="radio" name="myContact" id="catering" value="catering">Catering </label>
+    <label><input type="radio" name="myContact" id="more" value="more">More Information</label>
+    <label><input type="radio" name="myContact" id="other" value="other">Other</label>
+    <input id="mySubmit" type="Submit" value="Submit">
+    <input id="myReset" type="Reset">
+    </fieldset>
+
+</form>
+<footer>Copyright &copy; 2015</footer>
+  </body>
+</html>
