@@ -64,9 +64,11 @@ nav a:hover {
     padding-left: 160px;
 }
 
-aside {
+#special {
     float: right;
-    width: 200px;
+    padding-top: 15px;
+    padding-left: 160px;
+
 }
 footer {
     font-size: .70em;
