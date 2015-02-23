@@ -71,7 +71,7 @@ nav a:hover {
 
 }
 footer {
-    font-size: .70em;
+    font-size: 1em;
     text-align: center;
     padding-top: 10px;
     clear: both;
@@ -107,9 +107,7 @@ input[type="radio"] {
 #mySubmit {
       float: right;
 }
-#myReset {
-      float: right;
-}
+
 table {
       position: relative;
       margin: auto;
